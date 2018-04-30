@@ -1,0 +1,86 @@
+nav {
+    font-family: 'Century Gothic', sans-serif;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+body {
+    margin: 2%;
+    padding: 1%;
+    background-color: darkcyan;
+
+}
+
+
+.box {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 1%;
+    margin: 2%;
+    text-align: left;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.box img {
+    width: 100%;
+}
+
+/*billede slut*/
+
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    text-emphasis-color: white;
+}
+
+.box h3 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.box p {
+    text-align: justify;
+}
+
+ul {
+    margin: 15px;
+    padding: 0;
+}
+
+.box li {
+    margin: 6px;
+}
+
+
+
+.box a {
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+
+.box a:hover {
+    color: #b9b9b9;
+
+}
+
+a:link {
+    text-align: center;
+    color: white;
+}
+
+a:visited {
+    color: #bcbcbc;
+}
+
+a:hover {
+    color: #b9b9b9;
+}
